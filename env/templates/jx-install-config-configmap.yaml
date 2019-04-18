@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAP+1wGE8tFIsDjilAC2RmNIwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkNmYyYWI1MWUtNjE1Ny00NzczLTgzYTgtNjEyZjQ5ODE1M2My
+    MB4XDTE5MDQxODEwMjIwMVoXDTI0MDQxNjExMjIwMVowLzEtMCsGA1UEAxMkNmYy
+    YWI1MWUtNjE1Ny00NzczLTgzYTgtNjEyZjQ5ODE1M2MyMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA5I98jqsodnxPcSDrdWgQRCX2Cpq+eTHYHw0gic1g
+    Za5qoANV0j2EeiUCzLJrD4l0T0puhAYAcACxAicjGsua2U/Wg9f2tbJDxZnYb0rx
+    d1KnX5j1RT5XKsgNbLdWgjOik0QRwdK5CWHIK3Yy5XnYHs/ns75yHFkYUkO94D5P
+    LxaId3BZJPL+6Bhhwl5T3QmihWfJEY8wrHlZ6UZXXhBdxpo2EDbl/wxMWeaGxizm
+    Fj2jRtq0e9KkT8BkoI1LuwyaRiMt0OtSbjksBGE493Bd0kTCTbk3vjXjrbtpMFLB
+    in2UTExUdzCo6C056SKnvYLtPWTDjmJUWtbmGXwYyKt0ZQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    TmyiQhFXVQKkYtta2lRuK9a4vXJMzL1XLVE3vKn110TtYGxw9UfVIGj3NciCF23X
+    u251HjEOktgoFb94MXX93wOmFo5VtWpwL2LELrA0/axhKrX6k6BbMHAjlv4FIRrp
+    7r8ODR+2+XHu9XYj95YHrRE2RS3rCvczxNVD+kyRvUPMtV57yITvnSVZNurjSeX6
+    8dumAUO4jDao8DbnBxFTdCFNdS1ayH4YG4pki7dTANT3pRX2eIWZr9+qkDjwK677
+    a1ZUsGpTRE5iHMIUaYDjHDEWvvCokK9GGOOjNNmAvQN0Zdp+Y87cRmPEujkW2BED
+    UCRL3vI570GUHT112L3UWA==
+    -----END CERTIFICATE-----
+  clusterName: finripple
+  jx-install-version: 2.0.11
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.189.238.214
+  systemVaultName: jx-vault-finripple
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
